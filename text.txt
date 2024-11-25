@@ -1,0 +1,75 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 987C-45AF
+
+ Directory of C:\Users\Student\Desktop\Altkom_Python_251124
+
+25.11.2024  15:36    <DIR>          .
+25.11.2024  15:36    <DIR>          ..
+25.11.2024  15:35    <DIR>          .idea
+25.11.2024  13:41    <DIR>          1_funkcje
+25.11.2024  15:14    <DIR>          2_OOP
+25.11.2024  15:36    <DIR>          3_narzedzia
+25.11.2024  09:34                22 README.md
+25.11.2024  15:36                 0 text.txt
+               2 File(s)             22 bytes
+               6 Dir(s)  90ÿ116ÿ956ÿ160 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 987C-45AF
+
+ Directory of C:\Users\Student\Desktop\Altkom_Python_251124
+
+25.11.2024  15:36    <DIR>          .
+25.11.2024  15:36    <DIR>          ..
+25.11.2024  15:35    <DIR>          .idea
+25.11.2024  13:41    <DIR>          1_funkcje
+25.11.2024  15:14    <DIR>          2_OOP
+25.11.2024  15:36    <DIR>          3_narzedzia
+25.11.2024  09:34                22 README.md
+25.11.2024  15:36               588 text.txt
+               2 File(s)            610 bytes
+               6 Dir(s)  90ÿ120ÿ671ÿ232 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 987C-45AF
+
+ Directory of C:\Users\Student\Desktop\Altkom_Python_251124
+
+25.11.2024  15:36    <DIR>          .
+25.11.2024  15:36    <DIR>          ..
+25.11.2024  15:42    <DIR>          .idea
+25.11.2024  13:41    <DIR>          1_funkcje
+25.11.2024  15:14    <DIR>          2_OOP
+25.11.2024  15:46    <DIR>          3_narzedzia
+25.11.2024  09:34                22 README.md
+25.11.2024  15:37             1ÿ176 text.txt
+               2 File(s)          1ÿ198 bytes
+               6 Dir(s)  90ÿ121ÿ285ÿ632 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 987C-45AF
+
+ Directory of C:\Users\Student\Desktop\Altkom_Python_251124
+
+25.11.2024  15:36    <DIR>          .
+25.11.2024  15:36    <DIR>          ..
+25.11.2024  15:42    <DIR>          .idea
+25.11.2024  13:41    <DIR>          1_funkcje
+25.11.2024  15:14    <DIR>          2_OOP
+25.11.2024  15:47    <DIR>          3_narzedzia
+25.11.2024  09:34                22 README.md
+25.11.2024  15:46             1ÿ764 text.txt
+               2 File(s)          1ÿ786 bytes
+               6 Dir(s)  90ÿ120ÿ065ÿ024 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 987C-45AF
+
+ Directory of C:\Users\Student\Desktop\Altkom_Python_251124
+
+25.11.2024  15:36    <DIR>          .
+25.11.2024  15:36    <DIR>          ..
+25.11.2024  15:42    <DIR>          .idea
+25.11.2024  13:41    <DIR>          1_funkcje
+25.11.2024  15:14    <DIR>          2_OOP
+25.11.2024  15:48    <DIR>          3_narzedzia
+25.11.2024  09:34                22 README.md
+25.11.2024  15:47             2ÿ352 text.txt
+               2 File(s)          2ÿ374 bytes
+               6 Dir(s)  90ÿ119ÿ671ÿ808 bytes free
