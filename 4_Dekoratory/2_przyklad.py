@@ -12,6 +12,7 @@ def dekorator_logujący(func):
 ### SPRAWDZIĆ LOGOWANIE FUNKCJI WRAPPER
 
 def dekorator_zabezpieczający(func):
+    @functools.wraps(func)
     def wrapper(dzielna, dzielnik):
         print('Sprawdzam parametry')
         if dzielnik == 0:

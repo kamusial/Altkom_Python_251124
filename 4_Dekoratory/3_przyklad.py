@@ -2,7 +2,7 @@ import functools
 import time
 def cache_decorator(func):
     cache = {}
-    #@functools.wraps(func)
+    @functools.wraps(func)
     def wrapper(*args, **kwargs):
         # klucz cache na podstawie argumentow
         cache_key = args + tuple(kwargs.items())
