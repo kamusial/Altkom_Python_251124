@@ -5,6 +5,10 @@ class Osoba:
 
     @property
     def imie(self):
+        pass
+
+    @imie.getter
+    def imie(self):
         return self._imie
 
     @imie.setter
@@ -13,21 +17,28 @@ class Osoba:
             raise ValueError("Imie nie może być puste")
         self._imie = imie
 
-    def getwiek(self):
+
+    @property
+    def wiek(self):
         return self._wiek
 
-    def setwiek(self, value):
+    @wiek.setter
+    def wiek(self, value):
         if not isinstance(value, int) or value < 0:
             raise ValueError("Wiek musi byc dodatnią liczbą całkowitą")
         self._wiek = value
 
 osoba = Osoba('Kamil', 36)
 print(osoba.imie)
-print(osoba.getwiek())
+print(osoba.wiek)
 osoba.imie = 'Ela'
-osoba.setwiek(25)
+osoba.wiek = 25
 print(osoba.imie)
-print(osoba.getwiek())
+print(osoba.wiek)
 
+try:
+    osoba.wiek = -25
+except ValueError as e:
+    print(e)
 
 
