@@ -1,6 +1,6 @@
 from selenium import webdriver
-from selenium4_POM import LoginPage
-from selenium2 import make_screenshot
+from POM import LoginPage
+from program_demo import make_screenshot
 from selenium.webdriver.common.by import By
 from time import sleep
 import pytest

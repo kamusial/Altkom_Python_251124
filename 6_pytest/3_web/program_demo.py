@@ -1,6 +1,12 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
+import datetime
+
+def make_screenshot(driver):
+    teraz = datetime.datetime.now()
+    file_name = teraz.strftime('screenshot%d-%M-%S.png')
+    driver.get_screenshot_as_file(file_name)
 
 driver = webdriver.Chrome()
 driver.get('https://google.com')
