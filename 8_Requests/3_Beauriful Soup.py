@@ -12,21 +12,12 @@ html = """
   </body>
 </html>
 """
-
 soup = BeautifulSoup(html, 'html.parser')
 
-# print(soup)
-# print(soup.prettify())
-print(soup.title.text)
-print(soup.find('h1').text)
-print(soup.find('a')['href'])
+print(soup.html.head.title.text)
 
-links =soup.find_all('a')
-for link in links:
-    print(link['href'])
+header = soup.find('h1')
+print(header.find_next_sibling('p').text)
 
-description = soup.find('p', class_ ='description')
-print(description.text)
-
-link = soup.find('a', {'class': "link"})
-print(link['href'])
+header.string = 'Zmieniony nagłówek'
+print(header)
