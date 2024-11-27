@@ -12,7 +12,8 @@ test_data = [
     ('performance_glitch_user', 'secret_sauce', 'https://www.saucedemo.com/inventory.html')
     ]
 
-@pytest.mark.skip(reason='not implemented')
+# @pytest.mark.skip(reason='not implemented')
+@pytest.mark.skipif(len('piesek') == 5, reason='not implemented')
 @pytest.mark.parametrize('user, passwd, url', test_data)
 def test_login_page(user, passwd, url):
     driver = webdriver.Chrome()
@@ -35,8 +36,9 @@ def test_login_page(user, passwd, url):
         print('Po asercji')
         driver.quit()
 
+@pytest.mark.xfail
 def test2():
-    assert 2 == 2
+    assert 2 == 3
 
 def test3():
     assert 3 == 3
