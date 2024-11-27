@@ -10,7 +10,7 @@ def test_login_page():
     page = LoginPage(driver)
     page.open()
     page.print_page_info()
-    page.enter_username('standard_userX')
+    page.enter_username('standard_user')
     page.enter_password('secret_sauce')
     page.click_login()
     sleep(1)
