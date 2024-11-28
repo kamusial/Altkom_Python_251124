@@ -24,3 +24,4 @@ print(q3)
 df1 = df[(df.price > 0) & (df.price < q3)]
 sns.histplot(df1.price)
 plt.show()
+
