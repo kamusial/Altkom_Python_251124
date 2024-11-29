@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.7 on win32)" generated="2024-11-29T14:16:38.146574" rpa="false" schemaversion="5">
+<suite id="s1" name="1 Basic" source="C:\Users\Student\Desktop\Altkom_Python_251124\14_Robot_framework\1_basic.robot">
+<test id="s1-t1" name="MyFirstTest" line="20">
+<kw name="Log In Wikipedia">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:16:38.865122" level="INFO">Opening browser 'firefox' to base url 'https://pl.wikipedia.org'.</msg>
+<arg>https://pl.wikipedia.org</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-29T14:16:38.865122" elapsed="8.716928"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:16:47.584141" level="INFO">Clicking element 'id:pt-login-2'.</msg>
+<arg>id:pt-login-2</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:16:47.584141" elapsed="1.718755"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:16:49.302896" level="INFO">Typing text 'RobotTests' into text field 'id:wpName1'.</msg>
+<arg>id:wpName1</arg>
+<arg>${login}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:16:49.302896" elapsed="0.078132"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:16:49.381028" level="INFO">Selecting checkbox 'id:wpRemember'.</msg>
+<arg>id:wpRemember</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:16:49.381028" elapsed="0.429073"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:16:49.810101" level="INFO">Typing password into text field 'id:wpPassword1'.</msg>
+<msg time="2024-11-29T14:16:49.833876" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>id:wpPassword1</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:16:49.810101" elapsed="0.055021"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:16:49.865122" level="INFO">Clicking button 'id:wpLoginAttempt'.</msg>
+<arg>id:wpLoginAttempt</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:16:49.865122" elapsed="2.839778"/>
+</kw>
+<arg>${wikipedia_login}</arg>
+<arg>${wikipedia_password}</arg>
+<status status="PASS" start="2024-11-29T14:16:38.865122" elapsed="13.840781"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:16:52.706899" level="INFO">Typing text 'Teoria Wielkiego Podrywu' into text field 'id:searchInput'.</msg>
+<arg>id:searchInput</arg>
+<arg>Teoria Wielkiego Podrywu</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:16:52.705903" elapsed="0.210134"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:16:52.917036" level="INFO">Clicking button 'id:searchButton'.</msg>
+<msg time="2024-11-29T14:16:53.164036" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-11-29T14:16:53.165036" level="FAIL">Button with locator 'id:searchButton' not found.</msg>
+<arg>id:searchButton</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2024-11-29T14:16:52.917036" elapsed="0.260000">Button with locator 'id:searchButton' not found.</status>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>${project_path}/screen1.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" start="2024-11-29T14:16:53.181547" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-11-29T14:16:53.182074" elapsed="0.000000"/>
+</kw>
+<doc>First test</doc>
+<status status="FAIL" start="2024-11-29T14:16:38.849573" elapsed="14.332501">Button with locator 'id:searchButton' not found.</status>
+</test>
+<test id="s1-t2" name="MySecondTest" line="29">
+<kw name="Log In Wikipedia">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:16:53.185041" level="INFO">Opening browser 'firefox' to base url 'https://pl.wikipedia.org'.</msg>
+<arg>https://pl.wikipedia.org</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-29T14:16:53.185041" elapsed="8.336451"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:17:01.521492" level="INFO">Clicking element 'id:pt-login-2'.</msg>
+<arg>id:pt-login-2</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:17:01.521492" elapsed="1.577875"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:17:03.099367" level="INFO">Typing text 'RobotTests' into text field 'id:wpName1'.</msg>
+<arg>id:wpName1</arg>
+<arg>${login}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:17:03.099367" elapsed="0.093834"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:17:03.193201" level="INFO">Selecting checkbox 'id:wpRemember'.</msg>
+<arg>id:wpRemember</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:17:03.193201" elapsed="0.296756"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:17:03.489957" level="INFO">Typing password into text field 'id:wpPassword1'.</msg>
+<msg time="2024-11-29T14:17:03.506053" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>id:wpPassword1</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:17:03.489957" elapsed="0.049529"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:17:03.539486" level="INFO">Clicking button 'id:wpLoginAttempt'.</msg>
+<arg>id:wpLoginAttempt</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:17:03.539486" elapsed="3.178631"/>
+</kw>
+<arg>${wikipedia_login}</arg>
+<arg>${wikipedia_password}</arg>
+<status status="PASS" start="2024-11-29T14:16:53.184039" elapsed="13.534078"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:17:06.726195" level="INFO">Typing text 'Teoria Wielkiego Podrywu' into text field 'id:searchInput'.</msg>
+<arg>id:searchInput</arg>
+<arg>Teoria Wielkiego Podrywu</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-29T14:17:06.718117" elapsed="0.124408"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-29T14:17:06.850672" level="INFO">Clicking button 'id:searchButton'.</msg>
+<msg time="2024-11-29T14:17:07.024274" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-6.png"&gt;&lt;img src="selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-11-29T14:17:07.032431" level="FAIL">Button with locator 'id:searchButton' not found.</msg>
+<arg>id:searchButton</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2024-11-29T14:17:06.850672" elapsed="0.181759">Button with locator 'id:searchButton' not found.</status>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>${project_path}/screen2.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" start="2024-11-29T14:17:07.044837" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-11-29T14:17:07.044837" elapsed="0.000000"/>
+</kw>
+<doc>Second test</doc>
+<status status="FAIL" start="2024-11-29T14:16:53.183036" elapsed="13.861801">Button with locator 'id:searchButton' not found.</status>
+</test>
+<status status="FAIL" start="2024-11-29T14:16:38.146574" elapsed="28.908689"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="1 Basic">1 Basic</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

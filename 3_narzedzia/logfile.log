@@ -1,0 +1,15 @@
+2024-11-29 13:29:52,769 : WARNING : __main__ : Cos jest nie tak
+2024-11-29 13:29:52,769 : ERROR : __main__ : Funkcja nie dziala, ale pracujemy dalej
+2024-11-29 13:29:52,769 : CRITICAL : __main__ : Blad krytyczny - konczymy dzialanie
+2024-11-29 13:29:58,544 : WARNING : __main__ : Cos jest nie tak
+2024-11-29 13:29:58,544 : ERROR : __main__ : Funkcja nie dziala, ale pracujemy dalej
+2024-11-29 13:29:58,544 : CRITICAL : __main__ : Blad krytyczny - konczymy dzialanie
+2024-11-29 13:30:12,309 : WARNING : __main__ : Cos jest nie tak
+2024-11-29 13:30:12,309 : ERROR : __main__ : Funkcja nie dziala, ale pracujemy dalej
+2024-11-29 13:30:12,309 : CRITICAL : __main__ : Blad krytyczny - konczymy dzialanie
+2024-11-29 13:30:51,926 : WARNING : __main__ : Cos jest nie tak
+2024-11-29 13:30:51,928 : ERROR : __main__ : Funkcja nie dziala, ale pracujemy dalej
+2024-11-29 13:30:51,928 : CRITICAL : __main__ : Blad krytyczny - konczymy dzialanie
+2024-11-29 13:54:30,647 : ERROR : 4_logger : Kwota musi byæ wiêksza od zera
+2024-11-29 13:54:30,650 : ERROR : 4_logger : Kwota wyp³aty musi byæ wiêksza od zera
+2024-11-29 13:54:30,657 : ERROR : 4_logger : Brak wystarczaj¹cych œrodków dla wyp³aty 1500.0 u Jan Kowalski
