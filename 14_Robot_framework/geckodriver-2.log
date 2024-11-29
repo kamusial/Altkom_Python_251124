@@ -9,3 +9,8 @@ WebDriver BiDi listening on ws://127.0.0.1:55183
 Read port: 55192
 1732886038461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 DevTools listening on ws://127.0.0.1:55183/devtools/browser/50fdabfd-3b38-4fcf-b4be-9455c42d9562
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.

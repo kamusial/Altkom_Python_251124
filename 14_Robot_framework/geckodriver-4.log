@@ -11,3 +11,10 @@ Read port: 55380
 DevTools listening on ws://127.0.0.1:55371/devtools/browser/bf8c14b3-e8e2-4939-bee5-89f14b3936a1
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://pl.wikipedia.org."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://pl.wikipedia.org."
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
